@@ -10,6 +10,14 @@
             </button>
         </div>
 
+        <div class="item item-body item-icon-left  item-icon-right"> 
+            <div class="option-container">
+                <img class="qicon" src="http://i325.photobucket.com/albums/k362/gbsojo/Componente-06_zpsdkww5vlf.png">
+                <h2 class="option">{{'current_position' | translate}}</div>
+                <i class="ion-chevron-right icon chevron"></i>
+            </div>
+        </div>
+
         <mz-template ng-repeat="item in filteredItems" bind-to="item" template-type="_screenParams.templateType"
             screen-params="_screenParams"   ng-click="itemClickHandler(item)">
         </mz-template>

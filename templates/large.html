@@ -1,7 +1,8 @@
-<div class="item item-body"> 
-    <h2 ng-show="bindTo.title">{{ bindTo.title }}</h2> 
-    <p  ng-show="bindTo.detail_1">{{ bindTo.detail_1 }}</p> 
-    <p  ng-show="bindTo.detail_2">{{ bindTo.detail_2 }}</p> 
-    <p  ng-show="bindTo.date">{{ bindTo.date | date : format : short }}</p> 
-    <img ng-show="bindTo.image" class="full-image" ng-src="{{bindTo.image}}">
+<div class="item item-body item-icon-left item-icon-right"> 
+	<div class="option-container">
+			<img class="qicon" src="{{bindTo.icon}}">
+	    <h2 class="option">{{ bindTo.title }}</h2>
+	    <i class="ion-chevron-right icon chevron"></i>
+    </div>
+    
 </div>

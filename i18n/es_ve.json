@@ -1,5 +1,6 @@
 {
   "list_search": "Buscar",
   "list_search_cancel": "Cancelar",
-  "empty_search" : "La búsqueda no ha obtenido ningún resultado"
+  "empty_search" : "La búsqueda no ha obtenido ningún resultado",
+  "current_position" : "Posición Actual"
 }

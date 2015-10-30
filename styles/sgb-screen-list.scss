@@ -1,3 +1,26 @@
 .listItemTitle {
   color: cornflowerblue
 }
+
+.qicon {
+	height: 40px;
+	width: 40px;
+	margin-right: 0.5em;
+}
+
+.option {
+	display: inline-block;
+	margin-top: 0 !important;
+	margin: auto 0;
+	margin-left: 10px;
+}
+
+.option-container {
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+}
+
+.chevron {
+	display: inline-block;
+}
